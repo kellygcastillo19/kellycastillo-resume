@@ -1,0 +1,130 @@
+/* Color Palette
+#506056 - color 1
+#EADBCD - color 2 
+#F6EFE7 - color 3
+#C87E5D - color 4
+*/
+
+/* Global styles 
+------------------------------------*/
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+} 
+
+body {
+  font-family: "Overpass Mono", monospace;
+  font-weight: 400;
+  font-size: 13px;
+  margin: 0;
+  padding-top: 30px;
+}
+
+h1 {
+  font-family: "Gluten", cursive;
+  font-weight: 700; 
+  font-size: 3em;
+  margin: 0;
+}
+
+h2 {
+  font-family: "Gluten", cursive;
+  font-weight: 500; 
+  font-size: 2em;
+  margin-top: 0;
+  margin: 0;
+}
+
+h3 {
+  font-family: "Overpass Mono", monospace;
+  font-weight: 600; 
+  font-size: 1em;
+}
+
+a {
+  display: inline-block;
+  color: black;
+  padding: 10px; 
+  text-decoration: none;
+}
+
+.content-wrap {
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 50px;
+  overflow: hidden;
+}
+
+.column-narrow {
+  width: 30%; 
+  float: left; 
+  padding-right: 3%; 
+  min-height: 175px;
+}
+
+.column-wide {
+  width: 70%; 
+  float: left; 
+  min-height: 225px;
+}
+
+/* Header & Footer 
+------------------------------------*/
+header {
+  background: #506056;
+  color: #F6EFE7;
+}
+
+nav {
+  background: #EADBCD;
+  position: fixed;
+  top: 0;
+  width:100%;
+  text-align: center;
+} 
+
+.profile-img{
+  /* width: 300px;
+  float: left;
+  margin-right: 30px; */
+  border-radius:50%;
+}
+
+footer {
+  background: #506056;
+  color: #F6EFE7; 
+  text-align: center;
+}
+
+.contact-info a{
+  padding: 10px; 
+  display: inline-block;
+}
+
+i {
+  color: black;
+  padding: 10px; 
+}
+
+/* Work Experience
+------------------------------------*/
+.work {
+  color: black;
+}
+
+.image-bg {
+  background: url("https://cdn.glitch.global/6b04c035-7f35-47ec-bda2-32b31bce9e27/crumpledpaperbackground.jpeg?v=1665285591827") local, scroll;
+}
+
+.alpha-bg {
+  background: rgba(246, 239, 231, 0.5);
+}
+
+/* Education
+------------------------------------*/
+.education {
+  background: #C87E5D;
+  color: black;
+}
